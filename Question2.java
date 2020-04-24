@@ -16,7 +16,6 @@ public class Question2
     System.out.print("Please enter your height in m: ");
     double height = in.nextDouble();
     double bmi= height * weight;
-    String bmi2= Double.toString(bmi);
     System.out.printIn("Your BMI is " + bmi);
     
   }
